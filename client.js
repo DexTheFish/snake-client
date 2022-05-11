@@ -6,7 +6,8 @@ const connect = function() {
   });
   conn.setEncoding("utf8");
   conn.on("connect", () => {
-    console.log("Connection successful!")
+    conn.write('Name: DD');
+    console.log("Connection successful!");
   });
   conn.on("data", (data) => {
     console.log(data);
