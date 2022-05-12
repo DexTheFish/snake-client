@@ -26,7 +26,7 @@ const handleUserInput = function(key) {
     connection.write('Move: right');
   }
   if (key === 'e') {
-    connection.write('Say: 2 slo 4 me');
+    connection.write('Say: need 4 speed!');
   }
   if (key === 'v') {
     connection.write('Say: rofl');
