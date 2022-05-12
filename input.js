@@ -14,7 +14,6 @@ const handleUserInput = function(key) {
   }
   if (key === 'w') {
     connection.write('Move: up');
-    console.log('test');
   }
   if (key === 'a') {
     connection.write('Move: left');
